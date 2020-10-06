@@ -1,0 +1,107 @@
+Git e Github para iniciantes
+
+Objetivos da aula
+1- Aprender oq é controle de Versão
+2- Como lidar com o Git e seus comandos
+3- Como subir o código no Github
+
+Controle de versão: são formas que tem dentro do desenvolvimento de softer para gerenciar o ciclo do código fonte;
+histórico e desenvolvimento dos códigos-fontes e também da documentação
+
+Ferramentas para controle de versão
+subversion/svn
+mercurial
+cvs
+git
+
+git é um sistema de controle de versão distribuído e um sistema de gerenciamento..para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.
+
+aula2
+Principais comandos GIT
+entender o conceito
+
+se atente ao conceito, a linha de comando
+oq manda é o contexto, o problema
+
+git init= inicialiazar um diretório dentro do 
+git clone = obter servidor remoto
+git add = adicionar arquivos para o git rastrear
+comitar -salvar em formato de commit
+git commit= uma forma de acoplar, juntar, tornar rastreavel
+git push= poder publicar num servidor remoto
+git pull= atualizar o repositorio local conforme o remoto
+git merge= juntar branchs, resolução de conflitos
+git status = estado atual do projeto
+git log = devolve um historio de alteração
+git branch = 
+repositorio local = na minha maquina
+repositorio remoto = no servidor, distribuido
+
+Aula 3
+Utilizando comandos GIT em um projeto de software
+
+Iniciando um repositorio GIT
+mkdir projeto-cursogit (criar o diretorio)
+cd projeto-curso-git (acessar o diretorio)
+git init (iniciar um repositorio dentro do diretorio) 
+respostas pertinentes ao estado
+
+git status
+ramo master
+commits yet
+
+touch index.html =
+
+arquivo nao monitorado : git add para incluir oq será submetido
+o git começa a controlar o arquivo
+
+git rm -para nao apresentar
+git commit-m "Meu primeiro commit" = pequenos e condizentes com a fiture
+
+Git Hub
+Última aula: Conhecendo como funciona o git
+
+Conhecendo o Github
+Um site onde vc consegue estar expondo códigos
+O eco sistema que o githube abrange é muito lindo, consegue interagir com outros desenvolvedores, consegue estudar códigos de outras pessoas. 
+Rede de compartilhamento de conhecimento para o desenvolvedor.
+
+Criando um repositório no Github
+Tem opções de poder ta clonando ele
+
+git remote add 
+git remote rm origin: remove
+git push -u origin master 
+git push: envia para o repositório remoto
+
+Continuação ....
+
+11-10-2019
+Git Hub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

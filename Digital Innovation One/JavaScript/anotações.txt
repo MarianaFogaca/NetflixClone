@@ -1,0 +1,223 @@
+Programação para internet com JavaScript
+
+Objetivos da Aula
+1. Entender como funciona o JavaScript
+2. Aprender a programar utilizando JavaScript
+3. Desenvolver páginas utiliando JavaScript
+
+Requisitos Básicos
+.Windows, linux ou OSX
+.Editor de texto
+.Conhecer algoritmos
+.GitHub
+.Ter feito a aula de HTML5
+
+JavaScript
+-Linguagem de script e multiplataforma
+-Client Side - É executado do lado do cliente (usuário)
+-Tem capacidade de interagir com elementos de uma página HTML
+-Muito usado no desenvolvimento de páginas e também aplicativos mobile híbridos
+
+DOM
+-JavaScript pode alterar todos elementos do HTML
+-JavaScript pode alterar todos os atributos e estilos de CSS de uma página
+
+Roteiro JavaScript
+alert
+variaveis
+console.log
+array e dicionario
+condicional (if else)
+laços de repetição while e for
+push, pop e length
+reverse array
+toString para array
+join para array
+variavel global/local
+replace
+lowerCase, upperCase
+redirecionar para outra página
+date
+function
+
+console.log(nome);= Aparece na area de console, expecionar
+replace altera a frase;
+touperCase= tudo maiúsculo
+toLowerCase= tudo minusculo
+
+Parte2 
+Array e Dicionário
+var lista = ["maça", "pêra", "laranja"];
+lista.push("uva") -acrescenta "uva"
+lista.pop(); -tira o último
+console.log(lista[1]);
+
+console.log(lista.length);
+console.log(lista.reverse()); -trás ao contrário
+console.log(lista.toString); -trás em formato de string e não de array
+console.log(lista.join('-'));-transforma e string e separa com -
+alert(lista[1])
+
+Dicionário:
+var fruta = {nome:"maçã", cor:"vermelho"}
+console.log(fruta.nome);
+alert(fruta.cor);
+
+Parte 3:
+Condicionais, laços de repetição e Date
+
+var idade = prompt("Qual sua iade"); = exibe uma pergunta
+var idade = 18;
+if(idade > 18){
+  alert("maior de idade");
+}
+else{
+  alert("menor de idade");
+};
+
+Contador:
+var count = 5;
+while (count < 5){
+     console.log(count);
+     count = count + 1; ou cout++
+};
+
+var count; 
+for(count=0; count <=5; cout++){
+   alert(count);
+}
+
+var d = new Date ();
+alert(d.getMonth());
+
+Questões:
+Considere a variável count de valor 0. Ela passará pelo laço de repetição com "while(count < 5)" imprimindo no console a sequência de números "0, 1, 2, 3, 4, 5". 
+Sendo assim, qual comando abaixo usando "for" seria compatível com este comando "while"?
+
+Analise o código abaixo:
+
+Alert (“Digital Innovation One:” + formacoes)
+
+Assinale a alternativa correta:
+o sinal "+" antes de uma string concatena. antes de inteiros, ele soma.
+
+Qual a melhor definição para o DOM (Document Object Model) no contexto de páginas de internet?
+DOM é o modelo de padrão e interface que define propriedades, métodos e eventos de elementos.
+
+Veja o código abaixo:
+
+var lista = [“Alemanha”, “Inglaterra”, “Escócia”]/
+lista.push(“Polônia”);
+lista.pop(“Inglaterra”);
+
+Como ficará a listagem desse comando?
+o comando não pode ser executado, pois o comando que inicia um comentário
+está faltando um caractere.
+
+
+
+Function:
+function soma(n1, n2){
+     return n1 + n2;
+}
+
+alert(soma(5,10));
+
+function setReplace(frase, nome){
+    return frase.replace(nome, novo_nome)
+}
+
+function validaIdade(idade){
+    var validar;
+    if (idade >= 18){
+        validar = true;
+    }
+    else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validade());
+
+Parte2: Manipulando elementos da página
+window.open("...") -abre outra página
+window.location.href = "http"; =abra na mesma página
+
+onchange= aparece uma caixa de seleção
+onload= 
+
+
+
+
+A história da chapeuzinho vermelho é umas das histórias mais conhecidas no mundo e possui inúmeras adaptações, mas a história básica cita que a protagonista, 
+chamada de "Chapeuzinho Vermelho", tem um trajeto da sua casa até a casa do Vovó expresso na seguinte variável chamada trajeto:
+["mãe", "floresta", "avó"]. 
+Qual alternativa abaixo está correta?
+O comando trajeto.join(">") retorna a string "mãe>floresta>avó".
+
+
+Considere que você possua o arquivo index.html e você precisa inserir um arquivo de JavaScript chamado "heroi.js" que está em uma pasta chamada "personagens". Qual das alternativas abaixo faria isso da forma correta?
+<script src="personagens/heroi.js" type="text/javascript"></script>
+
+
+
+
+QUestões:
+Assinale a alternativa que melhor define a ideia de parâmetros de uma função.
+
+
+Você está programando a tela de um jogo. Existem 3 opções de personagens para você escolher e eles são de raças diferentes, sendo um humano, um elfo e um orc. 
+Sempre que você selecionar um personagem, 
+uma tag <p> deve escrever os poderes específicos de cada raça. Sendo assim, avalie as alternativas abaixo e selecione a mais coerente para essa funcionalidade:
+
+
+Na estrutura HTML você observa o seguinte comando:
+<body onload="carregou()">
+
+Qual alternativa abaixo representa a melhor possibilidade?
+ A função carregou será chamada assim que a página web for carregada, mas seu conteúdo pode ser diverso.
+
+Qual a função do evento OnMouseOver?
+Definir a ação quando o usuário passa o mouse sobre o elemento.
+
+I- O comando  window.open abre a página em outra janela.
+II – O comando window.location.href abre a página em outra aba. 
+III – O redirecionamento permite que o usuário saia da página atual e vá para outra, seja através da aba ou da janela. 
+1 e 3 corretas.
+
+Assinale a alternativa que melhor define a ideia de parâmetros de uma função.
+Os parâmetro de uma função são passados durante a chamada da função, podendo cada uma trazer valores de
+string, inteiro, arreys e entre outros.
+
+Se tratando de funções, assinale a alternativa errada:
+valores podem ser passados para uma função, que retorna uma variável.
+
+Qual o objetivo do evento onChange?
+
+Você tem uma página de web com vários bichos de pelúcia e quer presentear alguém com um personagem do desenho animado "Ursinhos Carinhosos". 
+Para isso você usa o seguinte código JavaScript:
+document.getElementById("selecionado").innerHTML = "Escolheu: " + nome_personagem.
+Qual alternativa abaixo apresenta uma tag HTML com parâmetros corretos e que se relaciona corretamente a declaração JavaScript?
+<button id="coração_valente" onclick-"selecionou()"> coração valente</button> 
+
+
+
+
+
+
+/*
+Just because you fail once, it doesn't mean youre going
+to fail at everything. keep trying, hold on, and always, 
+always, always belive in yourself because if your head high,
+keep your chin up, and most importantly, keep smiling because
+lifes a beautiful thing and theres so much to smile about.
+Marilyn monroe
+Só porque você falhou uma vez, não significa que você está indo
+falhar em tudo. continue tentando, espere e sempre,
+sempre, sempre acredite em si mesmo, porque se sua cabeça erguida,
+mantenha o queixo erguido e, o mais importante, continue sorrindo porque
+A vida é uma coisa linda e há muito para sorrir.
+Marilyn Monroe
+*/

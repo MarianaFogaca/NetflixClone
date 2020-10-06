@@ -1,0 +1,27 @@
+Desafio
+Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos 
+para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B 
+(pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. 
+Não apresente outra mensagem além da mensagem especificada.
+
+Entrada
+A entrada contém 2 valores inteiros, separados por um espaço.
+
+Saída
+Imprimir a mensagem "X = " (sendo a letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Assegure que exista um espaço antes e depois do 
+sinal de igualdade.
+
+1- O desafio lhe propõe praticar o pensamento computacional, exigindo a criação de uma solução implementada através do seu código com um conjunto de entradas
+e saídas esperadas.
+2- Nessa área você deve digitar o seu código para a solução do desafio.
+3- Clicando nesse botão você pode ir salvando o seu código conforme for desenvolvendo.
+4- Aqui você pode alterar as configurações do editor e deixar com a sua cara.
+5- Nessa área você confere algumas instruções e dicas para implementação da sua solução.
+6- Nessa área fica todos os testes que serão executados junto a sua implementação da solução.
+  -Os testes abertos () podem ser executados a qualquer momento para você avaliar o código criado como solução para o desafio.
+  -Os testes com cadeados () são ocultos e apenas serão executados quando você decidir entregar o seu código.
+7- Através desse botão você executa os testes abertos a qualquer momento para você avaliar o código criado como solução para o desafio.
+8- Em caso de dúvidas você pode consultar o nosso FAQ.
+9- Você também pode tirar dúvidas com milhares de Devs em nossa comunidade no Discord.
+10- Após revisado e testado o seu código você deve entregar o desafio para avaliação em tempo real.
+11- Os hearts representam a sua quantidade de tentativas incorretas disponíveis e são recuperados ao longo do tempo.

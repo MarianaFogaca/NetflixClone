@@ -1,0 +1,133 @@
+Trabalhando com Branching
+Quando quer implementar algo novo, cria-se um novo ramo
+No novo ramo se tem todo o grafo de commits
+Principal: master
+Branches permitem que diferentes versões do mesmo conteúdo se
+desenvolvam ao mesmo tempo, porém de forma independente, enquanto
+você recombina periodicamente as contribuições de diferentes branches
+em um processo chamado de "fusão" merging.(GIT Guia prático, O'Reilly)
+Nomeia o ramo de acordo com a necessidade, o nome da branching diz algo sobre ela
+git branch <<nome branch>> (apenas cria, ainda aponta pra master)
+ou
+git checkout-b<<nome branch>> (pega o nome da branch
+
+O comando git branch <<nome branch>> cria uma nova branch no repositória
+local, mas mantém a referência do origin para a branch defaul no caso a master.
+Já o comando git branch -b <<nome branch>> cria uma nova branch e já troca a referência
+do origin para a nova branch criada.
+
+git branch: mostra quais branches temos criadas no repositório
+git checkout: é responsável por trocar a referência
+
+git branch -D contato: deleta a branch contato
+
+git branch contato: cria a branch contato
+git checkout - b insttitucional: cria e troca a branch
+
+git add contato.html: adiciona no html (no ramo contato)
+
+git commit -m: commita (add)
+git log: exibe todas as modificações
+
+O que o comando 'git branch' faz?
+Lista todas as branches criadas no repositório local
+
+Qual é o comando que devo utilizar para navegar de uma branch para outra?
+
+Aprenda na prática o que são ramificações (branches) e como manipulá-las utilizando comandos Git
+
+
+
+
+
+2- Trabalhando com Branching
+git branch
+git checkout <<nome branch>>
+
+o comando git branch irá mostrar quais branches temos criada em nosso repositório.
+o comando git checkout <<nome branch>> é responsável por trocar a referência.
+O comando git branch <<nome branch>> cria uma nova branch no repositório local, mas mantém a referência da origin
+para a branch default no caso a master.
+Já o comando git branch -b <<nome branch>> cria uma nova branch e já troca a referência do origin para a nova
+branch criada.
+O comando git push origin <<nome branch>> irá enviar a nossa branch do repositório local para o repositório remoto.
+
+git push origin contato: disponibiliza no github
+
+Qual comando é utilizado para marcar compromissos específicos no Git?
+tag
+Qual é o comando feito para juntar arquivos de duas branches sem gerar um novo evento?
+git rebase NOME_do_Arquivo
+Qual comando deve ser utilizado para ver um repositório remoto?
+git remote
+Assinale a alternativa correta: 
+I – Sistema de controle de versão distribuído tem como objetivo a comunicação entre áreas de trabalho. 
+II – Um dos comandos utilizados no Github para clonar um trabalho e salvá-lo em um servidor remoto é “git clone user”.
+III – Para adicionar um novo arquivo rastreável no repositório, basta usar o comando add e depois o commit.
+Apenas I e III estão corretas
+
+
+
+
+3- Trabalhando com branch
+git push origin <<nome branch>>
+o comando acima irá enviar a nossa branch do repositório local para o repositório remoto.
+git merge <<nome branch>>
+o comando git merge <<nome branch>> é responsável por mesclar alterações de uma branch,
+a uma branch ativa, por exemplo a branch master.
+
+as duas branchs ficam iguais.
+
+Qual o comando para consultar os commits, e suas estatísticas abreviadas, criados no Github?
+git log-stat
+
+O que é uma branch?
+é como um braço do projeto
+
+O professor menciona deploy, o que é isso?
+colocar o projeto em produção
+
+Qual comando envia uma branch do repositório local ao repositório remoto?
+git push origin 
+
+Para que seja possível adicionar um arquivo e fazer o commit em apenas um passo é necessário usar o comando
+git commit -a -m <comentario>
+
+Para que todos os repositórios remotos sejam listados, até a URL do repositório, qual comando deve ser usado?
+git remote -v
+
+
+
+Qual comando se deve utilizar quando você quer 'resetar' as alterações de um arquivo?
+git checkout -- nome do arquivo
+
+
+Qual comando é utilizado para enviar a nossa branch do repositório local para o repositório remoto?
+git push origin Nome_da_branch
+
+Qual o comando utilizado para editar a mensagem do último commit?
+git commit -- amend
+
+Qual comando você utiliza para retirar um arquivo adicionado para commitar (após utilizar git add)?
+git reset HEAD NOME_DO_ARQUIVO
+
+Qual sequência deve ser utilizada para unir as alterações commitadas e enviar para o repositório remoto na branch master: 
+I- Utilizar o comando 'git merge NOME_DA_BRANCH'.
+II- Utilizar o comando 'git push origin master'. 
+III- Devo ir para a branch master.
+3-1-2
+
+Qual comando é utilizado para unir branches distintas?
+git merge NOME_DA_BRANCH
+
+Qual comando se utiliza para ver as modificações feitas no arquivo?
+git diff NOME_DO_ARQUIVO
+
+Quais branches são listadas no repositório do GitHub?
+todas as branches que foram feitas o push
+
+Com base na documentação de Git, qual é o comando para configurar usuario e e-mail na sua máquina?
+
+
+Quais dados do commit são listados quando o comando 'git log' é usado?
+o id, a branch, a data, o e-mail e o nome do autor
